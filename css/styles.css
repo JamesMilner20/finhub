@@ -1,0 +1,146 @@
+body {
+  margin:0;
+}
+
+.part1a {
+  background-color: #007bff;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  font-size: 150%;
+}
+
+#myNavbar a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #d0ebb1;
+}
+
+.dropdown-menu > li > a {
+  display: inline-flex;
+}
+
+.navbar-inverse .dropdown-menu > li > a {
+    color: #d0ebb1;
+}
+
+.active {
+  color: white;
+}
+
+.nav2 > li{
+  margin: 10px;
+}
+
+.nav2{
+  padding-left: 70px;
+}
+
+.center{
+  text-align: center;
+}
+
+.navDropdown {
+  background-color: #536a50;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+#myNavbar {
+  text-align: center;
+}
+
+/*Css for part2*/
+.part2 {
+  background: url(../img/jakob2.JPG) top fixed;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  height: 100%;
+  background-repeat: repeat;
+  position: inherit;
+}
+
+.part2 h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.part2 h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.part2 > .col-md-2{
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.nav2{
+  display: block;
+  float: left;
+}
+
+.part2c{
+  display: block;
+}
+
+.nav-tabs{
+  border-bottom: 0px;
+}
+
+.part2bii{
+  margin-top: 75px;
+  font-size: 50px;
+  font-style: italic;
+  background-color: #007bff;
+  padding: 50px 0px 50px 50px;
+  border-radius: 5px;
+}
+
+.companies{
+  width: 14%;
+  float: left;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 1%;
+  padding: 0px;
+  color: black;
+  background-color: grey;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.panel {
+  color: black
+}
+
+#menu3 {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+/*css for part5*/
+
+.part5 {
+  background-color: #007bff;
+  color: #d0ebb1;
+  z-index: 1px;
+  position: relative;
+
+}
+
+.social{
+  display: inline;
+}
+
+/*Insurance*/
+/* .part2b {
+  margin-bottom: 70px;
+} */
